@@ -15,7 +15,7 @@ category="funandgames"
 author_link="https://storage.googleapis.com/empire28/Bigfoot%20Go%20Home.swf">
     <Require feature="dynamic-height"/>
   </ModulePrefs>
-  <Content type="html" view="default,canvas">
+  <Content type="html" view="home,canvas">
 <head>
 <title>Bigfoot Go Home</title>
 <meta content='
