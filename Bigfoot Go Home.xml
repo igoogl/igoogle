@@ -16,6 +16,7 @@ author_link="https://storage.googleapis.com/empire28/Bigfoot%20Go%20Home.swf">
     <Require feature="dynamic-height"/>
   </ModulePrefs>
   <Content type="html" view="default,canvas">
+<![CDATA[
 <head>
 <title>Bigfoot Go Home</title>
 <meta content='
@@ -43,7 +44,7 @@ author_link="https://storage.googleapis.com/empire28/Bigfoot%20Go%20Home.swf">
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> ]]>
 
   </Content>
 </Module>
