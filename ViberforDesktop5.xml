@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs height="100" 
+title="Viber for Desktop" 
+description="
+Viber for Desktop is synced to your mobile account. To activate Viber for Desktop, you will need an active Viber account on your mobile phone.
+" 
+author="waled" 
+author_email="waled.m2006@gmail.com" 
+screenshot="https://www.viber.com/app/uploads/viber-for-desktop.png" 
+thumbnail="https://www.viber.com/app/uploads/viber-for-desktop.png" 
+author_location="USA" 
+directory_title="Viber for Desktop"
+category="technology"
+author_link="https://www.viber.com/download/">
+    <Require feature="views" />
+  </ModulePrefs>
+<Content type="html" view="home">
+ <head>
+<title>Viber for Desktop</title>
+<meta content='
+Viber for Desktop is synced to your mobile account. To activate Viber for Desktop, you will need an active Viber account on your mobile phone.
+' name='description'/>
+<meta content='Viber for Desktop' name='keywords'/>
+
+ </head>
+  <![CDATA[
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 11444 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="4399363114"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <h3>Download</h3>
+        <h1>Viber for Desktop</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+            <h2>Viber for Desktop is synced to your mobile account. To activate Viber for Desktop, you will need an active Viber account on your mobile phone.</h2>
+          </div>
+        </div>
+
+
+        <div class="desktop-btn row justify-content-center">
+
+	                          <span class="btn-wrap">
+                    <a href="https://download.cdn.viber.com/desktop/windows/ViberSetup.exe" class="windows global-btn">Download for Windows</a>
+                                      </span>
+		                          <span class="btn-wrap">
+                    <a href="https://download.cdn.viber.com/desktop/mac/Viber.dmg" class="mac global-btn">Download for Mac</a>
+                                        <span>macOS 10.10 and up</span>
+                                      </span>
+		        
+        </div>
+
+        <div class="desktop-image">
+          <img class="img-fluid d-none d-sm-block" src="https://www.viber.com/app/uploads/viber-for-desktop.png" alt="Viber for Desktop">
+          <img class="img-fluid d-sm-none" src="https://www.viber.com/app/uploads/desktop-device.png" alt="Viber for Desktop">
+
+        </div>
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 11444 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="4399363114"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  ]]>
+  </Content>
+  <Content type="html" view="canvas">
+<head>
+<title>Viber for Desktop</title>
+<meta content='
+Viber for Desktop is synced to your mobile account. To activate Viber for Desktop, you will need an active Viber account on your mobile phone.
+' name='description'/>
+<meta content='Viber for Desktop' name='keywords'/>
+
+ </head>
+  <![CDATA[
+ <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 11444 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="4399363114"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <h3>Download</h3>
+        <h1>Viber for Desktop</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+            <h2>Viber for Desktop is synced to your mobile account. To activate Viber for Desktop, you will need an active Viber account on your mobile phone.</h2>
+          </div>
+        </div>
+
+
+        <div class="desktop-btn row justify-content-center">
+
+	                          <span class="btn-wrap">
+                    <a href="https://download.cdn.viber.com/desktop/windows/ViberSetup.exe" class="windows global-btn">Download for Windows</a>
+                                      </span>
+		                          <span class="btn-wrap">
+                    <a href="https://download.cdn.viber.com/desktop/mac/Viber.dmg" class="mac global-btn">Download for Mac</a>
+                                     <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- app2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="8073031118"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                                      </span>
+		        
+        </div>
+
+        <div class="desktop-image">
+          <img class="img-fluid d-none d-sm-block" src="https://www.viber.com/app/uploads/viber-for-desktop.png" alt="Viber for Desktop">
+          <img class="img-fluid d-sm-none" src="https://www.viber.com/app/uploads/desktop-device.png" alt="Viber for Desktop">
+
+        </div>
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 11444 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="4399363114"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  ]]>
+  </Content>
+  </Module>
