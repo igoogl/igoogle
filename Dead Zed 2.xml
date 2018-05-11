@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+ <ModulePrefs height="336" 
+title="Dead Zed 2" 
+description="
+Dead Zed 2, a free online Shooting game brought to you by Armor Games. Defend your position from hordes of incoming undead, man
+" 
+author="waled" 
+author_email="waled.m2006@gmail.com" 
+screenshot="https://cache.armorgames.com/files/thumbnails/dead-zed-2-15850.png?v=1394132500" 
+thumbnail="https://cache.armorgames.com/files/thumbnails/dead-zed-2-15850.png?v=1394132500" 
+author_location="USA" 
+directory_title="Dead Zed 2"
+category="funandgames"
+author_link="https://cache.armorgames.com/files/games/dead-zed-2-15850.swf?v=1398379191">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <Content type="html" view="default,canvas">
+<![CDATA[
+<head>
+<title>Dead Zed 2</title>
+<meta content='
+Dead Zed 2, a free online Shooting game brought to you by Armor Games. Defend your position from hordes of incoming undead, man
+' name='description'/>
+<meta content='Dead Zed 2' name='keywords'/>
+ </head><script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- app2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="8073031118"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<center><h2>Dead Zed 2, a free online Shooting game brought to you by Armor Games. Defend your position from hordes of incoming undead, man</h2><iframe width="336" height="300" src="https://cache.armorgames.com/files/games/dead-zed-2-15850.swf?v=1398379191"></iframe></center>
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- car3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="8881412328"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+
+]]>
+  </Content>
+</Module>
