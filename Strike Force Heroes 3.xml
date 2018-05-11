@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+ <ModulePrefs height="336" 
+title="Strike Force Heroes 3" 
+description="
+Strike Force Heroes 3, a free online Shooting game brought to you by Armor Games. The next installment in the award-winning ser
+" 
+author="waled" 
+author_email="waled.m2006@gmail.com" 
+screenshot="https://gamemedia.armorgames.com/17706/icn_feat.png?v=1525963807" 
+thumbnail="https://gamemedia.armorgames.com/17706/icn_feat.png?v=1525963807" 
+author_location="USA" 
+directory_title="Strike Force Heroes 3"
+category="funandgames"
+author_link="http://cache.armorgames.com/files/games/strike-force-heroes--17706.swf?v=1441733416">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <Content type="html" view="default,canvas">
+<![CDATA[
+<head>
+<title>Strike Force Heroes 3</title>
+<meta content='
+Strike Force Heroes 3, a free online Shooting game brought to you by Armor Games. The next installment in the award-winning ser
+' name='description'/>
+<meta content='Strike Force Heroes 3' name='keywords'/>
+ </head>
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- app2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="8073031118"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<center><h2>Strike Force Heroes 3, a free online Shooting game brought to you by Armor Games. The next installment in the award-winning ser</h2><iframe width="336" height="280" src="http://cache.armorgames.com/files/games/strike-force-heroes--17706.swf?v=1441733416"></iframe></center>
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- car3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="8881412328"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script
+]]>
+  </Content>
+</Module>
