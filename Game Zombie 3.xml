@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+ <ModulePrefs height="336" 
+title="Game Zombie 3" 
+description="
+The third part of the game win the death 3 - Hit the saboteurs Open new ways in your way to save the world Upgrade your vehicle
+" 
+author="waled" 
+author_email="waled.m2006@gmail.com" 
+screenshot="https://www.g9g.com/data/thumbnails/1/earntodie3.jpg" 
+thumbnail="https://www.g9g.com/data/thumbnails/1/earntodie3.jpg" 
+author_location="USA" 
+directory_title="Game Zombie 3"
+category="funandgames"
+author_link="https://dc1.g9g.com/games/earntodie3.swf">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <Content type="html" view="default,canvas">
+<![CDATA[
+<head>
+<title>Game Zombie 3</title>
+<meta content='
+The third part of the game win the death 3 - Hit the saboteurs Open new ways in your way to save the world Upgrade your vehicle
+' name='description'/>
+<meta content='Game Zombie 3' name='keywords'/>
+ </head>
+
+<center><iframe width="336" height="280" src="https://dc1.g9g.com/games/earntodie3.swf"></iframe></center>
+
+]]>
+  </Content>
+</Module>
