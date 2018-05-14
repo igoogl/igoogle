@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2752741932348751",
+          enable_page_level_ads: true
+     });
+</script>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bceadb921a","applicationID":"48637645,27456590","transactionName":"JlpeF0ENCggEExtXTRZBXw5WEEkUDhNAVVRKXlI8UhASDQINUUcXDFtUBks=","queueTime":0,"applicationTime":544,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta pod-id="" />
+	  <link href="https://cdn.desk.com/assets/portal_jqueryui_only-ae2078f5d9247e97c310caf0c453b7d9.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="https://cdn.desk.com/assets/vendor-c0a3f0c532dd6db2d09875a0ea69a8b0.js" type="text/javascript"></script>
+		<script src="https://cdn.desk.com/assets/customer_widget-044efc6df9c5a6cdfe09ae38cde0fa38.js" type="text/javascript"></script>
+		<script src="https://cdn.desk.com/assets/portal-6cf8baf2170daed9feb9f26bb3d2e9d5.js" type="text/javascript"></script>
+      <script src="https://cdn.desk.com/assets/portal/desk.public_event_logger-b261b5d6041d73051bbb6db8fe304281.js" type="text/javascript"></script>
+
+
+		<script src="https://www.google.com/jsapi?key=ABQIAAAAQO2RPu5r12mVC40HMDIFHRQqrBpdv_jP_dFl8Cw_MxS37sDB3xTXnsXso23z1ROPVCqEVVv6cqz_cA" type="text/javascript"></script>
+		
+	<script src="https://cdn.desk.com/assets/tracking-1b7234dfdb53a1f5d1f8c427e6b594f3.js" type="text/javascript"></script>
+
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="J929bwsIjo4QYCssTWyXwSCq+HTx1031iYbXGQ+yJiU=" name="csrf-token" />
+	<meta name="site_id" content="157963" />
+	<meta name="env" content="production" />
+	<meta name="public_events_server" content="events.deskapi.com" />
+	<meta name="portal_errors_attachment_file_size_too_big" content="The attached file is too big to upload" />
+
+		<!-- Vendee Header 2016 -->
+
+
+<link rel="SHORTCUT ICON" type='image/ico' href='https://support.viber.com/customer/portal/theme_attachments/42820?cb=1500466926123' />
+<link rel="icon" type='image/png' href='https://support.viber.com/customer/portal/theme_attachments/42820?cb=1500466926123' />
+
+<title>
+  Viber  |
+  
+    Support Portal
+  
+</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+
+<!-- ///////////////////////////////////////////////////////////////
+                  **** STYLE SHEETS FONTS AND MORE ****
+/////////////////////////////////////////////////////////////// -->
+<!-- CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/alertifyjs/1.10.0/css/alertify.min.css"/>
+<!-- Default theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/alertifyjs/1.10.0/css/themes/default.min.css"/>
+<link rel="stylesheet" href="//desk-customers.s3.amazonaws.com/v10/css/bootstrap.min.css">
+<script src="https://use.fontawesome.com/dc31db2ff3.js"></script>
+<link href="//desk-customers.s3.amazonaws.com/v10/css/default.css" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+<style>
+ body,html, #content, #breadcrumbs {
+  background:#fff;      
+}
+/* MOBILE HEADER */
+#mobileHeader h1 a, #header .desktop-logo a {
+  color:#ffffff !important;  
+}
+
+  /*MOBILE MENU*/
+ #mobile-menu, #mobile-menu .brand {
+  background:#fff;
+  background: #ffffff !important;
+  color:#447622;
+  color:#ffffff !important;
+  }
+   #mobile-menu {
+  border-right:1px solid #ccc;
+  }
+  #mobile-menu .moblangslct > .moblangslctInner {font-weight:600;}
+  span.moblangslctInner:after{
+    content: "  \f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+  #site-canvas #mobile-menu .nav li a, #site-canvas #mobile-menu .mobile-suggest ul.results li a i, #mobile-menu .moblangslct > .moblangslctInner {
+  color:#464646 !important;
+  font-size:20px;
+  }
+/* DESKTOP HEADER */
+#header, #mobileHeader{
+  background: #fff;
+}
+
+/* HEADER HOVERS */
+
+/* HEADER COLORS/FACES */
+h1, h2, h3, h4, h5, h6,
+#content .container.index .desk-topic h3 a,
+#content .container.index .desk-qna h3 a,
+#content .container.index .get-sat h4 a,
+#content .container.topic .body .qna h3 a,
+#content .container.topic .body .article h3 a{
+  color:#333 !important;
+  color: #000000 !important;
+  font-size:20px !important;
+}
+
+/* DEFAULT CONTENT COLORS/FACES */
+body,p, blockquote, ul, ol, li {
+  line-height: 1.5;
+  font-size: 15px;
+  color:#333;
+  color: #000000 !important;
+}
+.breadcrumb > .active,
+.myportal.index .body table tbody,
+  #content .container.index .desk-topic ul li a,
+  #content .container.index .desk-qna ul li a,
+  #content .container.index .get-sat ul li a { 
+    color:#333 !important;
+    color:#000000 !important;
+}
+/* BUTTON - Email, Chat, Myportal */
+.myportal.index .header ul.case-menu li.new a,
+.myportal.case .status  button,
+.myportal.case .status  input[type="submit"],
+.new_customer_contact_email button,
+.input-button > input,
+.attachments a.add_attachment,
+.desk_file_upload input[type=button],
+.input-button > input,
+#rowbar ul li a,
+.label,
+.topics-only a.btn-primary {
+  background:#447622;
+  background:# !important;         
+  color:#fff;
+  border:none;  
+}
+  
+  #email_submit, .input-button > input.btn.btn-submit, .btn.btn-submit {
+  border:2px solid #665cac;
+  background-color:transparent;
+  color:#665cac;
+  font-weight:600;
+  }
+  
+  #email_submit:hover, #email_submit:focus, .input-button > input.btn.btn-submit:hover, .input-button > input.btn.btn-submit:focus, .btn.btn-submit:hover, .btn.btn-submit:focus {
+  background:#3a3179 !important;
+  color:#fff !important;
+  }
+  
+  #email_submit:disabled {
+  opacity: 0.3;
+  }
+  
+/* BUTTON HOVERS - Email, Chat, Myportal */
+  .myportal.index .header ul.case-menu li.new a:hover,
+  .myportal.index .header ul.case-menu li.new a:focus,
+  .myportal.case .status  button:hover,
+  .myportal.case .status  button:focus,
+  .myportal.case .status  input[type="submit"]:hover,
+  .myportal.case .status  input[type="submit"]:focus,
+  .new_customer_contact_email button:hover,
+  .new_customer_contact_email button:focus,
+  .input-button > input:hover,
+  .input-button > input:focus,
+  .attachments a.add_attachment:hover,
+  .attachments a.add_attachment:focus,
+  .desk_file_upload input[type=button]:hover,
+  .desk_file_upload input[type=button]:focus,
+  .desk_file_upload input[type=button]:active,
+  .input-button > input:hover,
+  .input-button > input:focus,
+  .input-button > input.btn.btn-submit:hover,
+  .input-button > input.btn.btn-submit:focus,
+  .btn.btn-submit:hover,
+  .btn.btn-submit:focus,
+  #rowbar ul li a:hover,
+  #rowbar ul li a:focus,
+  .topics-only a.btn-primary:hover,
+  .topics-only a.btn-primary:focus {
+     background:#447622;
+     background:# !important;    
+     background:#ffffff !important;  
+     color:#fff;
+ }
+/* Vendee BUTTONS*/
+a.btn.btn-pill span, a.btn.btn-pill {
+   color:#447622 !important;
+   color:#665cac !important;
+   border-color:#447622 !important;
+   border-color:#665cac !important;
+   font-weight:600;
+ }
+#content a.btn.btn-pill:hover,
+#content a.btn.btn-pill:hover,
+#content a.btn.btn-pill:hover,
+#content a.btn.btn-pill:hover span,
+a.btn.btn-pill:hover span{
+  background:#447622;
+  background: #665cac !important;
+  border-color:#fff !important;
+  color:#fff !important;
+  font-weight:600 !important; 
+}
+#content a.btn.btn-pill:focus {
+  border-color:#665cac;
+}
+/* QUESTION/ARTICLE SWITCH */
+#content .container.topic .header .switch .btn.active,
+#content .container.topic .header .switch .btn,
+#content .container.topic .header .switch .btn:hover,
+#content .container.topic .header .switch .btn:focus,
+#content .container.topic .header .switch .btn:active {
+  background:none !important;
+  border:none;
+  font-size:1.1em;
+}
+#content .container.topic .header .switch .btn, #content .container.topic .header .switch .btn:hover, #content .container.topic .header .switch .btn:focus {
+  color:#a3a3a3 !important;
+}
+#content .container.topic .header .switch .btn:hover, #content .container.topic .header .switch .btn:focus{
+ text-decoration:underline;
+}
+#content .container.topic .header .switch .btn.active, #content .container.topic .header .switch .btn.active:focus, #content .container.topic .header .switch .btn.active:hover {
+  color:#665cac !important;
+  cursor:default;
+  text-decoration:none !important;
+}
+/* LINKS COLOR */
+a,
+#breadcrumbs ol.breadcrumb li a,
+.myportal.index .body table tbody tr a,
+div.myportal.account .myaccount-form  div[id^="email_"] .verified input,
+.container.pre-create .panel-body ul li h4 a span.highlight,
+.container.pre-create .panel-body ul li a,
+.container.pre-create .panel-body ul li h4,
+div.options ul li a,
+#sidebar > ul > li > a,
+.gs-content ul > li > div,
+#sidebar .autosuggest > ul > li > a > span{
+  color:#447622 !important;
+  color: #665cac !important;   
+  color: #665cac !important;
+}
+a:hover, a:focus{
+   color:#696969 !important;
+  text-decoration: underline;
+}
+
+  strong a:hover span{
+    color: #696969 !important;
+  cursor:pointer;
+}
+  
+a span strong:hover{
+   color:#696969 !important;
+  cursor:pointer;
+  }
+  
+  strong span:hover{
+  cursor:pointer;
+  }
+  
+  strong a span:hover{
+   color:#696969 !important;
+  cursor:pointer;
+  }  
+  
+#rate_article a {color:#6f6d6d !important; border:2px solid #6f6d6d !important;}
+  #rate_article .rate-link-down a {color:#6f6d6d !important; border:2px solid #6f6d6d !important;}
+
+/* AUTOCOMLETE */
+.ui-menu {
+  background: #fff;
+}
+ul.ui-menu li.ui-menu-item a span.article-autocomplete-subject{
+  font-size: 15px;
+  color: #665cac;
+  font-weight:600;
+}
+ul.ui-menu li.ui-menu-item a span.article-autocomplete-body {
+  font-size: 15px;
+  color:  #ffffff;
+}
+/* SEARCH BAR */
+  #search {
+      background:url("https://viber-support.s3.amazonaws.com/main-cover.png") !important;
+      background-position: center 72% !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+  }
+ /*Tablet+Mobile version*/ 
+  @media only screen and (max-width: 979px) {
+    #search {
+      background:url("https://viber-support.s3.amazonaws.com/main-cover_mobile.png") !important;
+      background-position: center 78% !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #search{
+      background-size: auto !important;
+      background-position: 80% 91% !important;
+    }
+  }
+  @media only screen and (min-width: 1500px) {
+    #search{
+      background-position: center center !important;
+    }
+  }
+
+  #mobile-menu .search button {
+   color:#447622 !important;
+   color:#665cac !important;
+  }
+#email-button:hover,#email-button:focus {
+  text-decoration: none;
+  color:#665cac;
+  opacity:.9;
+}
+/* FOOTER */
+#footer {
+  background: #8074d6;
+  padding:25px 0;
+  text-align:center;
+}
+#footer-top {
+  background:#665cac !important;
+  padding:35px 0;
+  text-align:center;
+}
+#footer .container p, #footer .container a span, #footer .container a  {
+  color:#fff !important;
+  color:#fff !important;
+}
+#content .index .desk-topic h3 a, #content .index .desk-qna h3 a { 
+  background:#ffffff; 
+  padding-right:10px; 
+}
+/* VENDEE HOMPAGE */
+.container-fluid {background-color:#f7f7f7;}
+.card h2 a {
+  color:#333 !important;
+  color: #000000 !important;
+  font-size:20px;
+}
+.card p {
+  color:#333 !important;
+  color:#000000 !important;
+}
+/** Custom CSS **/
+
+/** Custom CSS **/
+  .row.body.answer .col-md-11 h3{line-height:50px;}
+/*TYPOGRAPHY*/
+h1, .h1, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { 
+ font-family: 'Verdana', sans-serif !important;
+  font-size: 20px;
+  font-weight: bold;
+  color: black; 
+}  
+h2, .h2 span{
+ font-family: 'Verdana', sans-serif !important;
+  font-size: 16px;
+  font-weight: bold !important;
+  color:#48c3ce;
+  }
+  
+body, p, label, .label, .side-nav, button:not(#support-search-submit), .button, .ui-widget, .tabs dd>a, .tabs .tab-title>a, .breadcrumbs a, .breadcrumbs li, ul.pagination li a, ul.pagination li button,.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button, .index h5, .home-contact h5, #content .container.article .body p, #content .container.article .body span, #content .container.article .body, #content .container.article .body div   {
+  
+     font-family: 'Verdana'!important;
+  font-size: 14px !important;
+  color: black!important;
+   
+}
+label {
+    font-weight: 600;.desk_file_upload input[type=button], .desk_file_upload input[type=button]:hover, .desk_file_upload input[type=button]:focus, .desk_file_upload input[type=button]:active, .attachments a.add_attachment, .attachments a.add_attachment:hover, .attachments a.add_attachment:focus, .attachments a.add_attachment:active
+    color: #000000;
+    font-size: 15px;
+}
+.desk_file_upload input[type=button], .desk_file_upload input[type=button]:hover, .desk_file_upload input[type=button]:focus, .desk_file_upload input[type=button]:active, .attachments a.add_attachment, .attachments a.add_attachment:hover, .attachments a.add_attachment:focus, .attachments a.add_attachment:active {
+    color:#8c8c8c;
+    color: #665cac; 
+  }
+  
+  
+  #content .container.search .result.question h3 a, #content .container.search .result.article h3 a {
+  color:#333 !important;
+  color:#000000 !important;
+  }
+  ul.ui-menu li.ui-menu-item a span.article-autocomplete-subject {
+  color:#447622 !important;
+  color: #665cac !important;
+  }
+  #mobile-menu #desk-mobile-lang-list select {  
+    background:url('/customer/portal/attachments/685053');
+    background-repeat: no-repeat;
+    background-position: 90% 16px;
+    background-size: 10px;
+  }
+  
+  
+   .help-icon {
+   color: #000000;
+   cursor: pointer;
+  background: #eeeeee;
+border-radius: 50%;
+width: 20px;
+display: inline-block;
+text-align: center;
+height: 20px;
+line-height: 20px;
+font-weight: bold;
+  }
+  
+    .helpPopUp{
+  width: 200px;
+  background: whitesmoke;
+  position: absolute;
+  top: -15px;
+  left: 220px;
+  border: 1px solid#000;
+  border-radius: 6px;
+  display: none;
+  font-weight: normal;
+  line-height: 1.3;
+  padding: 9px;
+  font-size: 14px;
+  z-index:2;
+  }
+  
+  #div_phone_no .helpPopUp {
+  left: 268px;
+  }
+  
+  #div_operator_no .helpPopUp{
+  left: 215px;
+  }
+  
+  #div_operator_no.required .helpPopUp{
+  left: 287px;
+  }
+  
+  #div_platform .helpPopUp {
+   left: 174px;
+  }
+  
+  div_os_version .helpPopUp {
+   left: 157px;
+  }
+  
+  input[type="radio"]{
+    box-sizing: border-box;
+    width: 5%;
+    height: 2em;
+  border: none !important;
+  -moz-appearance: radio; 
+  -webkit-appearance: radio;
+}
+
+  .desktop-logo img{
+    vertical-align: initial;
+  }
+  
+ .radio .form-control{
+    border: none !important; -moz-appearance: radio; -webkit-appearance: radio;
+    box-sizing: border-box;
+    width: 5%;
+    height: 2em;
+}
+  .rad{
+   border: 1px !important;
+  border-radius: 0 !important;
+  background-color: transparent !important; 
+  -moz-appearance: radio !important; 
+  -webkit-appearance: radio !important;
+  }
+
+ strong{
+  color:black;
+  }
+
+  h2 span strong{
+    color: #48c3ce;
+    font-size: 16px !important;
+  }
+  
+  .hrefspan strong:hover{
+  color: grey !important;
+  }
+  
+  .hrefspan a:hover{
+  color: grey !important;
+  }
+  
+  strong a:hover span:hover{
+    color: #696969;
+  }
+  
+  .updated{
+  margin: 20px 0 0 0 !important;
+  font-size: 12px !important;
+  }
+  
+ .invalid{
+  color: #f19595 !important;
+ } 
+  
+ .badge{
+  font-size: 11px !important;
+  color: #fffff !important;
+  background-color: #54c0d4;
+  border-radius:3px;
+  height: 17px;
+ } 
+  
+  
+<!--[if IE]>
+#header #a-content-select {background-image:none !important;}
+<![endif]-->
+</style>
+
+<!-- Vendee CSS for Viber -->
+<style>
+*{-ms-word-break:keep-all!important;/*word-break:keep-all!important;*/-webkit-hyphens:none!important;-moz-hyphens:none!important;hyphens:none!important}textarea, input{/*-webkit-appearance:none;*/-moz-appearance:none;appearance:none}h1,h3,h4,h5,h6,.h1,.h3,.h4,.h5,.h6{font-weight:400!important;line-height:1.2}.container.article .body h1{font-size:24px}.container.article .body h2{font-size:22px}.container.article .body h3{font-size:20px}.container.article .body h4{font-size:18px}.container.article .body h5,.container.article .body h6{font-size:1em;font-weight:700!important}#content .container.index{padding:3.3em 15px}#header .container{padding:0}#header ul.nav.nav-pills li p{padding:10px 0}.breadcrumb > .active{color:#bbb}.login a.btn,.input-button > input.btn,a.btn.btn-pill,#header .langslct,#header ul.nav.nav-pills li a{border-radius:5px}.alternatelogins a#facebook:hover,.alternatelogins a#facebook:focus,.alternatelogins a#twitter:hover,.alternatelogins a#twitter:focus{background:none!important}.login a.btn,.input-button > input.btn,a.btn.btn-pill,a.btn.btn-pill span{-webkit-transition:none;-o-transition:none;transition:none}.desk_file_upload .faux-file-field input[type=text]{font-size:1em;line-height:1.5;height:45px}#search > .container > .row{margin:0}#search > .container > .row div.col-md-12{padding:0}.search-container .col1,.search-container .col2{padding:20px 25px}.search-container .col1{border-right:1px inset #ebebeb;height:100%}.search-container h1{font-size:36px;margin:0 0 15px;text-transform:uppercase}.search-container h3{font-size:26px;margin:0 0 25px}@media all and (max-width:1200px){.search-container h3{font-size:20px;margin:0 0 31px}}#search input.form-control{background:#fff;font-weight:300;font-size:24px;padding:5px 55px 5px 15px;width:100%;border:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:8px;height:71px;color:#999}#breadcrumbs{padding:15px 0;margin-bottom:24px}#breadcrumbs > .container > .row{margin:0!important}#content{padding:15px}#content > .container > .row{margin:0!important}.panel,.field input[type=text],.field input[type=password],.form-control{background:#fff}#email-button{display:inline-block;width:auto;background:#fff;padding:12px 15px;border-radius:5px;height:50px}#email-button span{vertical-align:middle;font-size:20px;line-height:1}#email-button i{margin-right:10px;font-size:24px;vertical-align:middle}#desk-attribution.row{padding:0;font-size:12px}#social_media a:last-child i{margin-right:0}#social_media a:hover i{-ms-transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2);transform:scale(1.2,1.2);-webkit-transition:.2s ease-in;transition:.2s ease-in}#footer-top .col-md-2 i{font-size:30px}.card{text-align:center}.card .icon-wrapper{width:100px;height:100px;text-align:center;display:inline-block;padding:25px;border-radius:5px}.card .icon-wrapper i{font-size:50px;color:#fff!important}.card h2{margin-bottom:0}.card h2 a:hover,.card h2 a:focus,.card h2:active{text-decoration:none!important}#content .index:not(.myportal) .header{margin-top:2em;text-align:center}#content .index .header h2{margin-bottom:2em}#content .container.index .desk-topic ul,#content .container.index .desk-qna ul,#content .container.index .get-sat ul{margin-bottom:20px}.login a.btn,.input-button > input.btn,a.btn.btn-pill,#header ul.nav.nav-pills li a{padding:5px 15px}.wrapper{margin-bottom:0;height:auto;min-height:initial}.wrapper:after{height:0}#footer{height:auto}#content{padding:0}#sidebar > ul,.gs-content ul{margin:30px 0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}#sidebar > ul > li,.gs-content ul > li{border-bottom:1px solid #e2e2e2}#content .container.topic .header .switch .btn.active,#content .container.topic .header .switch .btn:hover{background:none}#content .container.index .desk-topic ul li,#content .container.index .desk-qna ul li,#content .container.index .get-sat ul li{margin-bottom:12px;color:#665cac!important}#content .container.article .row.footer p.updated{font-size:1em;text-transform:capitalize; margin: 20px 0 0 0 !important;}#content .container{padding:0 15px 80px}.panel-default .panel-body{padding-bottom:0}#recaptcha_widget_div{padding:0 15px}#content .container.index .header h2{margin-bottom:45px}#content .container.article .body.row{padding-top:5px;padding-bottom:20px}.alternatelogins #facebook{border-color:#205D96!important}.alternatelogins #twitter{border-color:#55ACEE!important}#mobileHeader{height:60px}#mobileHeader .menu-button{margin:17.5px 0 0 15px}#mobileHeader h1 a img{}#mobileHeader h1{padding-top:2px;line-height:1}#mobile-menu .search button{font-size:18px;padding:0;left:20px;top:19px}#mobile-menu .search,#mobile-menu .mobile-suggest,#mobile-menu .mobile-suggest ul.results li.title{background:#666}#mobile-menu .mobile-suggest ul.results li.title{paddding-bottom:0}#mobile-menu input#q2{background:#fff;color:#666!important}#mobile-menu .nav li a,#mobile-menu .nav li a i{font-size:1em}#mobile-menu .moblangslct i{display:none}#mobile-menu .moblangslct{font-size:1em}#mobile-menu .nav li a,#mobile-menu .mobile-suggest ul.results li a i{color:#fff}#header h1{line-height:1}#mobile-menu .search{max-height:55px}#mobile-menu .search .row{height:55px}#mobile-menu input#q2{margin-top:13px;height:30px}#mobile-menu .nav li.phone a{display:inline-block!important}div.container.qna div.reply.row{padding-top:20px;border-top:none;margin:20px 0 0}div.container.qna div.row.header.question{padding-top:0}@media only screen and (min-width : 980px){#mobileHeader{display:none}}#header ul.nav.nav-pills{margin:0}a.button,.btn.btn-submit,.input-button > input,.attachments a.add_attachment,.input-button > input.btn.btn-submit,.desk_file_upload input[type=button]{line-height:1;font-size:1em;padding:15px 20px}.desk_file_upload{margin-bottom:0}.container.email .body.row{padding-top:20px}#mobile-menu .brand{padding:15px 15px 0}#mobile-menu img.gravatar{margin:0}#content .container.myportal{padding:0 15px}.myportal .body table tbody tr td.a-casestatus{white-space:nowrap}.myportal.case .status button,.myportal.case .status input[type="submit"]{height:auto;white-space:normal}#content.home .container.index{padding:4em 15px}.container .body.row{padding-top:0}.row.body.question{margin-top:15px}div.container.qna div.body.question hr{margin:25px 0;border:1px solid #ebeced}#content p,#content .container .body{margin-bottom:30px}#sidebar .autosuggest ul li{line-height:1;text-transform:none}#sidebar .autosuggest ul li a,#sidebar .autosuggest ul li a i{line-height:1.2;font-size:inherit}#common h4{line-height:1.3;font-style:normal}#content .container.article .body img{max-width:100%!important;height:auto!important}.new_customer_contact_email{border:none}.myportal .body .interaction-body{margin-top:15px}@media (min-width:768px){.myportal .interaction-details h3.meta{margin:0!important;line-height:50px}}button.back{border:none;background:none}span.highlight{background:#f3effe}#header .desktop-logo img{}#mobile-menu .mobile-logo{max-width:200px}#mobile-menu .brand h4,#mobile-menu .brand h5{font-size:1em;text-align:left;margin-top:0}.form-group.attachments{margin:0}#content .container.topic .header .switch .btn{margin:0}@media all and (max-width:980px){.card{margin-bottom:40px}#sidebar{margin-top:50px}#breadcrumbs > .container{padding:15px}.container .header h2{margin-top:15px}#breadcrumbs{background:#fafafa;padding:0;margin-bottom:15px}#breadcrumbs ol.breadcrumb{padding-left:15px}#content .container.article .row.footer{padding-top:40px}.container .body.row{padding-top:15px}.container.topic .body.row{padding-top:0}.myportal.case .status button,.myportal.case .status input[type="submit"]{float:none;margin-top:10px;position:relative;left:-15px}.breadcrumb>li{display:inline}}@media all and (max-width:768px){#content .container.index .desk-topic ul li,#content .container.index .desk-qna ul li{border:none;padding:0 0 0;margin:0}.index .desk-topic,.index .desk-qna{margin-bottom:3em}div.myportal.case .header .col-md-1,.myportal.case .answer.row .col-md-1{display:none}div.myportal.case .header .col-md-8.subject{position:relative;left:-15px}#content .myportal.case .header{position:relative;left:-15px}}@media all and (max-width:480px){#content.home .container.index{padding:30px 15px!important}#content .container.index .desk-topic ul,#content .container.index .desk-qna ul,#content .container.index .get-sat ul{margin-bottom:5px}.container .header h2{margin-top:0}.myportal.case .status button,.myportal.case .status input[type="submit"]{left:0}#content .container.topic .header .switch .btn{float:none;padding:0 10px 0 0}}@media all and (min-width:481px){#content .container.index .row.topic{margin-bottom:30px!important}}@media all and (min-width:992px){#breadcrumbs > .container{padding:20px 30px}}@media all and (min-width:980px){.right{float:right!important}}@media only screen and (min-width: 768px){#desktop-no-footer{min-height:calc(100vh - 219px)}}@media only screen and (max-width: 767px){#desktop-with-footer{min-height:calc(100vh - 70px)}}#mobileHeader h1 a img{}.desk_file_upload input[type=button],.desk_file_upload input[type=button]:hover,.desk_file_upload input[type=button]:focus,.desk_file_upload input[type=button]:active,.attachments a.add_attachment,.attachments a.add_attachment:hover,.attachments a.add_attachment:focus,.attachments a.add_attachment:active{background:none!important;outline:none;box-shadow:none;padding:5px 0!important;margin:0!important;float:none;max-width:50%;text-align:left;height:auto!important;display:block}.desk_file_upload .faux-file-field input[type=text]{padding:5px 0!important;margin:0!important;height:auto!important}#content .container.myportal.case{padding-bottom:25px}.search-container h3{font-style:italic;font-weight:600!important}.email .panel-default .panel-footer{margin-top:15px}#PreCreate h4 a,#PreCreate #email_submit{margin-left:10px}#content .container.article .body iframe,#content .container.article .body video{max-width:100%!important}@media (max-width:600px){#content .container.article .body iframe,#content .container.article .body video{height:auto!important}}#content.home p,#content .container .body{margin-bottom:0!important}div.g-recaptcha>div>div{margin:15px 0 0 15px}.nav>li>a:hover,.nav>li>a:focus{background:none}.alternatelogins #facebook,#add_facebook input.btn{color:#205D96!important;width:auto}.alternatelogins #twitter,#add_twitter input.btn{color:#55ACEE!important;width:auto}#add_facebook,#add_twitter{border:none;padding:10px 0}ul.ui-menu li.ui-menu-item a span.article-autocomplete-body{display:none}ul.ui-menu li.ui-menu-item a span.article-autocomplete-subject,ul.ui-menu li.ui-menu-item a span.article-autocomplete-body{font-size:14px!important}#ui-active-menuitem{background:#fafafa}
+  #rate_article a:hover,#rate_article a:focus{color:#ffffff !important; background:#6f6d6d !important;}.g-recaptcha{margin-left:15px}@media all and (max-width:480px){div.g-recaptcha>div>div{-ms-zoom:.75;-moz-transform:scale(0.75);-moz-transform-origin:0 0;-o-transform:scale(0.75);-o-transform-origin:0 0;-webkit-transform:scale(0.75);-webkit-transform-origin:0 0}}#header{padding:5px 0}#header ul.nav.nav-pills li{margin-top:9.5px}.search-container-viber h1,.search-container a,.search-container{color:#fff!important;margin-top:0}.search-container-viber h1{font-weight:66.667!important}#search #support-search-submit{right:15px;top:21px;font-size:inherit;padding:0}#search #support-search-submit img{width:29px}#search .container{padding:0;padding-top:150px}#quick-links .card h2{font-size:26pt;margin-top:10px;margin-bottom:15px}#quick-links .card p{font-size:20px;line-height:1.5;padding:0 20px}.card a:hover,.card a:focus,.card a:hover h2,.card a:hover p,.card h2,.card p{text-decoration:none!important}#quick-links .card a:hover h2,#quick-links .card a:focus h2{color:#665cac!important}#quick-links .card.col-md-4{padding-right:30px;padding-left:30px}#content .container.index .desk-topic h3,#content .container.index .desk-qna h3{width:100%;text-align:left;border:none;margin:0 0 15px;padding:0;text-transform:none;font-size:22px}#mobile-menu .moblangslctInner{display:none!important}#desk-mobile-lang-list{-webkit-appearance:none!important;position:absolute!important;opacity:1!important;height:36px!important;font-size:15px!important;top:calc(100vh - 120px)!important;display:inline-block!important;width:115px!important;max-width:100%;margin-left:15px!important;line-height:1.3}#mobile-menu #desk-mobile-lang-list select{padding:7px 10px;border-radius:5px;border-width:2px;font-weight:700;color:#464646!important;-xwebkit-appearance:menulist-button!important;border-color:#464646;line-height:1.3}#mobile-menu .nav li a{padding:10px 20px}#ui-active-menuitem{background:none!important}ul.ui-menu li.ui-menu-item:hover,ul.ui-menu li.ui-menu-item:focus{background-color:#ebebeb!important}#footer{color:#fff;font-size:14px}#social_media a,#social_media span{color:#fff!important}#social_media a i{font-size:30px;margin-left:25px}#social_media span{font-size:14px}#footer a{padding-right:14px;margin-right:10px;border-right:1px solid #fff}#footer a:nth-child(5){margin:0;padding:0;border:none}#footer .copyright{margin-top:25px}#footer a:hover,#footer a:focus{text-decoration:underline;!important}#rate_article a{border-radius:8px}.rateblock p{margin-bottom:15px}#sidebar > ul > li,.gs-content ul > li{text-transform:none}#sidebar h2,#rowbar h2,.gs-content h2{font-size:25px;padding-left:15px}.container.email #sidebar h2{padding-left:0}#sidebar .autosuggest ul li a span{font-weight:600}#content > .container > .row > .col-md-4{padding-left:15px}.sidebar.suggest h2{text-transform:none}#sidebar .autosuggest ul li a span{width:90%}.panel input{margin-bottom:0}label{font-weight:400}.pagination>li>a,.pagination>li>span{float:none}#pagination br{display:none}#pagination{text-align:center}.pagination>li>a,.pagination>li>span{border:1px solid transparent;background:none!important;padding:5px 9px;font-size:14px;color:#323232!important;line-height:1;border-radius:5px;font-style:normal}.pagination>.disabled>a,#pagination a.previous_page,#pagination a.next_page{border:none!important}.pagination>li:not(.disabled)>a:hover,.pagination>li:not(.disabled)>span:hover,.pagination>li:not(.disabled)>a:focus,.pagination>li:not(.disabled)>span:focus{background:none;border:1px solid #665cac;font-style:normal}.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus{background:none!important;border:1px solid #665cac}#pagination li.disabled a{background-color:#e1e1e1!important}#pagination li a i{color:#fff!important}#pagination li:first-child a{margin-right:23px}#pagination li:last-child a{margin-left:23px}#pagination a.next_page,#pagination a.previous_page{background-color:#665cac!important}#pagination li.disabled a{padding:7px 10px!important}#pagination a.previous_page,#pagination a.next_page{padding:7px 10px!important}@media only screen and (min-width : 980px){#search{height:466px}#search h1{font-size:50px}#search .container .row{width:80%;margin-right:auto;margin-left:auto}#search nav{margin-top:20px;display:inline-block}#search nav a{color:#fff!important;font-size:18px}#search nav a:hover,#search nav a:focus{text-decoration:underline}#search nav a:first-child,#search nav a:nth-child(2){margin-right:35px}}@media only screen and (max-width : 979px){#header,#search nav{display:none}#mobileHeader,#search{display:block}#search{height:255px!important}#search .container{padding:76px 20px 20px}#search h1{font-size:26px}#search input.form-control{height:48px;font-size:18px}#quick-links{display:none}#content.home .container.index{padding-top:20px;padding-bottom:20px}#mobileHeader .menu-button span{background:#665cac}#mobile-menu{padding-top:70px}#search #support-search-submit img{width:20px}#search #support-search-submit{top:14px;padding:0;line-height:1}}@media only screen and (max-width : 768px){#footer a{font-size:12px;padding-right:9px;margin-right:5px}#social_media a i{margin-left:15px}#footer .copyright{font-size:12px}#social_media span{font-size:14px}#content .container.index .desk-topic h3,#content .container.index .desk-qna h3{font-weight:600!important;font-size:18px}#content .container.index .header h2{text-align:left}}@media (max-width:320px){#search input.form-control{font-size:14px}div.g-recaptcha>div>div{-ms-zoom:.65;-moz-transform:scale(0.65);-moz-transform-origin:0 0;-o-transform:scale(0.65);-o-transform-origin:0 0;-webkit-transform:scale(0.65);-webkit-transform-origin:0 0}#pagination li:first-child a{margin-right:5px}#pagination li:last-child a{margin-left:5px}}a.btn.btn-pill span{border-width:1px}#content .container.topic .body .qna:first-child,#content .container.topic .body .article:first-child{border:none}#content .container.search .result{border:none!important;border-bottom:2px solid #eaeaea!important}#content .container.search .result:nth-child(11n){border:none!important}.container.topic .header h2,.container.search .header h2{margin-bottom:7px}#content .container.topic .body .qna p,#content .container.topic .body .article p,#content .container.topic .body .qna h3,#content .container.topic .body .article h3,#content .container.search .result.question h3,#content .container.search .result.article h3,#content .container.search .result.question p,#content .container.search .result.article p{margin-bottom:30px}div.rateblock > div{border:none;padding:0}div.rateblock.row{margin-top:55px}.field input[type=text],.field input[type=password],.form-control{border-width:1px}.container .header h2{line-height:1.3}[placeholder]:focus::-webkit-input-placeholder{color:#ddd!important;opacity:1!important}.form-control::-webkit-input-placeholder{color:#ddd!important}form-control:focus::-webkit-input-placeholder{color:#ddd!important}input:-moz-placeholder{color:#ddd!important}input:focus:-moz-placeholder{color:#ddd!important}input::-moz-placeholder{color:#ddd!important}input:focus::-moz-placeholder{color:#ddd!important}input:-ms-input-placeholder{color:#ddd!important}input:focus:-ms-input-placeholder{color:#ddd!important}.logo-support,.logo-support-mobile{color:#665cac;margin-left:5px;text-decoration:none;font-family:"Helvetica Neue", helvetica, sans-serif;font-size:33.333333px;font-style:normal;font-variant:normal;font-weight:200}a.brand:hover,a.brand:focus,#header .desktop-logo a:hover,#header .desktop-logo a:focus{text-decoration:none!important;color:#665cac!important}#header .langslct{display:none!important}#header #a-content-select{opacity:1!important;width:auto!important;height:auto!important;position:static!important;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important;-ms-appearance:none!important;-o-appearance:none!important;padding:5px 20px 5px 10px;margin-right:-25px;background:#fff;color:#323232!important;border:2px solid #323232!important;border-radius:5px;line-height:18px;background-image:url(https://support.viber.com/customer/portal/attachments/691306);background-repeat:no-repeat;background-position:90% 12.5px;xtext-align-last:center;xtext-align:center;xtext-align:-webkit-center}option{text-align:left}#header #a-content-select:focus{outline:none}select::-ms-expand{display:none}  
+</style>
+<!-- Vendee Header 7-2016 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48356607-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+	</head>
+	<body>
+			<div id="flash" class="flash_html"><div class="agent_notifier_msg a-flash flash_notice">
+  
+  
+</div>
+</div>
+		
+
+<script src="https://viber-support.s3.amazonaws.com/includes.js" type="text/javascript"></script>
+<!-- JavaScript -->
+<script src="//viber-support.s3.amazonaws.com/alertify.js"></script>
+
+<!-- Vendee body -->
+<!-- THEME OPTIONS -->
+ <!-- All cases load on my case index page and our sortable -->
+ <!-- Layout Functionality: Topics, Grid, List -->
+ <!-- Enable skip precreate site wide (email,chat, question) -->
+
+<!-- MULTIBRAND OPTIONS -->
+ <!--Enables multibrand search page - all results/brands on one page -->
+ <!-- exclude questions, should only enable if MBSearchPage = true -->
+ <!-- Multibrand search autocomplete similar to desk's support site -->
+ <!-- Multibrand Article suggestion on email/chat/question forms -->
+
+
+
+
+
+<div id="site-wrapper" class="wrapper">
+  
+  <div id="site-canvas" class="content Viber ">
+    <!--MOBILE SLIDEOUT MENU -->
+    <div id="mobile-menu">
+      
+      <ul class="nav nav-pills nav-stacked">
+        <li>
+          <a href="/customer/en/portal/topics/566752-getting-started/articles">	Download and activate Viber</a>
+        </li>
+        <li>
+          <a href="/customer/en/portal/topics/552124-viber-account-settings/articles">Account and settings</a>
+        </li>
+        <li>
+          <a href="/customer/en/portal/topics/592905-features-and-functions/articles">Security and privacy
+</a>
+        </li>
+        
+      </ul>
+      
+      
+      
+      <div id="desk-mobile-lang-list"></div>
+      
+      
+      
+    </div>
+    <!--MOBILE HEADER/TOPBAR -->
+    <div id="mobileHeader">
+      <div class="row">
+        <div class="col-xs-2">
+          <a id="MobileToggle" class="menu-button">
+            <img src="/customer/portal/attachments/689853" alt="menu-icon" class="active"/>
+          </a>
+        </div>
+        <div class="col-xs-8" style="margin-top:11px; width:33.66667% !important;">
+          <h1>
+            
+            <a class="brand" href='https://support.viber.com'>
+              <img class="mobile-logo" src="https://viber-support.s3.amazonaws.com/viber%20logo_web.png" alt="Viber -mobile-logo"/><span class="logo-support-mobile" style="margin-top:11px; font-size:16px !important;">Support</span>
+            </a>
+            
+          </h1>
+        </div>
+        <div class="col-xs-2">
+        </div>
+      </div>
+    </div>
+    <!-- DESKTOP HEADER -->
+    <div id="desktop-no-footer">
+      <div id="header">
+        <div class="container">
+          <div class="desktop-logo col-md-5 col-sm-5">
+            
+            <a href='https://support.viber.com'>
+              <img src="https://viber-support.s3.amazonaws.com/viber%20logo_web.png" alt="Viber -desktop-logo"/><span class="logo-support">Support</span>
+            </a>
+            
+          </div>
+          <div class="col-md-7 col-sm-7">
+            <ul class="nav nav-pills" id="langs_list">
+              
+              <li>
+                <select id="a-content-select" name="a-content-select"><option value="en" selected="selected">English</option>
+<option value="ar">العربية</option>
+<option value="ja">日本語</option>
+<option value="ru">Pусский</option></select>
+              </li>
+              
+
+<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- app2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="8073031118"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>
+              
+              <script type="text/javascript">
+                var userSelectedLanguage = document.getElementById('langs_list').childNodes[1].childNodes[1].value;
+                console.log(userSelectedLanguage);
+                if(userSelectedLanguage == 'ja') {
+                $('body').addClass('lang-ja');
+                //$('#nav li').css('visibility', 'hidden');
+                $('#company-header .logo').parent().attr('href', 'https://viber.co.jp');
+                //$('#company-header .logo').parent().removeAttr('href');
+                }
+                else if(userSelectedLanguage == 'ru') {
+                
+                $('body').removeClass('lang-ja').addClass('lang-ru');
+                } 
+                else if(userSelectedLanguage == 'ar'){
+                   $('#content, #breadcrumbs').css("direction","rtl");
+                   $('.rateblock').css('text-align', 'left');
+                   $("#rate_article").find('a:first').html("Liquid error: undefined method `gsub' for nil:NilClass");
+                   $("#rate_article").find('a:last').html("Liquid error: undefined method `gsub' for nil:NilClass");            
+                }
+              </script> 
+            </ul>
+          </div>
+        </div><!-- Container Desktop -->
+      </div><!-- #desk-header -->
+       <input type='hidden' name='b_id' value='3838'/>
+      <!-- SEARCH -->
+      
+      <div id="search" class="hidden-phone">
+        <div class="container">
+          <div class="row">
+            <div class="search-container-viber clearfix text-center">
+              <div class="col-md-12">
+                <h1 style="font-size:50px !important;">How can we help?</h1>
+                <form action='/customer/portal/articles/search' method='get' id='support-search' class='support-search-big'>
+
+                <div class="col-md-12">
+                  
+                  
+                  <input type="text" id="q" name="q" maxlength="100" value="" placeholder="Search Knowledge Base" class="input form-control" style="font-size:24px !imporatnt; color:#323232 !important;"/>
+                  
+                  <button type="submit" id="support-search-submit" value="Search"><img src="/customer/portal/attachments/685420" alt="search-icon"/></button>
+                </div>
+                </form>
+
+                <nav>
+                  <!--<a href="/customer/en/portal/articles/2592946-all-about-public-accounts">Public Accounts FAQ</a>-->
+                  <a href="/customer/en/portal/articles/2017401-viber-security-faq#.WBmahI996Uk">Viber Security FAQ</a>
+                  <a href="/customer/en/portal/articles/2669078-check-out-our-latest-update-">Latest Update</a>
+                </nav>
+              </div><!-- end col-->
+            </div><!-- Search-container-viber -->
+          </div><!-- Search row -->
+        </div><!-- Search Container -->
+      </div><!-- #desk-search -->
+      <div id="SearchAutoSuggest" class="ui-multi-brand"></div>
+      
+      <!-- END SEARCH -->
+      
+      <!-- BREADCRUMBS -->
+      
+                    <!-- END BREADCRUMBS -->
+                    <!--begin:portal_body-->
+
+<!--begin:page_index-->
+        <!--
+        `7MMF'`7MN.   `7MF'`7MM"""Yb. `7MM"""YMM  `YMM'   `MP'
+          MM    MMN.    M    MM    `Yb. MM    `7    VMb.  ,P
+          MM    M YMb   M    MM     `Mb MM   d       `MM.M'
+          MM    M  `MN. M    MM      MM MMmmMM         MMb
+          MM    M   `MM.M    MM     ,MP MM   Y  ,    ,M'`Mb.
+          MM    M     YMM    MM    ,dP' MM     ,M   ,P   `MM.
+        .JMML..JML.    YM  .JMMmmmdP' .JMMmmmmMMM .MM:.  .:MMa.
+                      START INDEX PAGE
+                                                            --> 
+<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- viber7 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="1073791113"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>															
+<div id="content" class="home">
+  <div id="desk-external-variables-page_index" class="desk-external-variables">
+    <div id="system-snippets-just_moderated"></div>
+  </div>
+  <div class="container alerts text-center" style="padding:0;">
+    <div class="row">
+      
+    </div> <!-- row -->
+  </div><!-- container alerts-->
+  
+  <!-- Vendee Quick links -->
+   
+  <div id="quick-links" class="container-fluid">
+    <div class="container index">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="card col-md-4">
+              <a href="/customer/en/portal/topics/566752-getting-started/articles">
+                <div class="icon-wrapper"><img src="/customer/portal/attachments/689843" alt="getting started icon"/></div>
+                <h2>	Download and activate Viber</h2>
+                <p>Everything you need to know (and more) when you start using Viber</p>
+              </a>
+            </div><!-- card1 -->
+            <div class="card col-md-4">
+              <a href="/customer/en/portal/topics/552124-viber-account-settings/articles">
+                <div class="icon-wrapper"><img src="/customer/portal/attachments/689844" alt="technical issues icon"/></div>
+                <h2>Account and settings</h2>
+                <p>Personalize Viber on your phone and manage your account to get the most out of the app</p>
+              </a>
+            </div><!-- card2 -->
+            <div class="card col-md-4">
+              <a href="/customer/en/portal/topics/592905-features-and-functions/articles">
+                <div class="icon-wrapper"><img src="/customer/portal/attachments/689845" alt="FAQ icon"/></div>
+                <h2>Security and privacy
+</h2>
+                <p>Read more about how Viber guards your safety and privacy</p>
+              </a>
+            </div><!-- card2 -->
+          </div><!-- end row -->
+        </div><!-- end row-->  
+      </div><!-- end container -->
+    </div><!-- end container-fluid-->
+  </div><!-- end container-fluid-->
+  
+  
+  <!-- Topics -->
+  <div class="container index">
+    <div class="row header">
+      <div id="bot" class="hidden-md hidden-lg"><a href="viber://pa?chatURI=vibersupport">Talk to our Support Bot </a><div class="badge">New</div></div><br>
+      <h2 class="col-md-12">
+        
+        Browse by Topic
+        
+      </h2>
+    </div>
+    <div class="row topic">
+      
+      
+      
+      <div class="desk-topic desk-topic-986296 col-md-4 col-sm-4">
+        <h3>
+          <a href='/customer/en/portal/topics/986296-viber-out/articles'>Viber Out</a></h3>
+        <ul>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1897807-using-viber-out'>Using Viber Out</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1258784-viber-out-credit'>Viber Out credit</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1251020-viber-out-payments-options-per-country'>Viber Out payments options per country</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2495845-viber-out-referral-program'>Viber Out referral program</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2512195-calling-plans-and-subscriptions---viber-out'>Calling plans and subscriptions - Viber Out</a>
+          </li>
+          
+        </ul>
+        <a href='/customer/en/portal/topics/986296-viber-out/articles' class="btn btn-pill"><span class="desk-view-text">View All </span>
+          6
+        </a>
+      </div>
+      
+    
+    
+    
+    
+      
+      <div class="desk-topic desk-topic-986297 col-md-4 col-sm-4">
+        <h3>
+          <a href='/customer/en/portal/topics/986297-chat-extensions/articles'>Chat Extensions</a></h3>
+        <ul>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2824163-introducing-chat-extensions'>Introducing Chat Extensions</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2705847-chat-extensions-on-desktop'>Chat Extensions on desktop</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2741678-instant-shopping-with-viber'>Instant Shopping with Viber</a>
+          </li>
+          
+        </ul>
+        <a href='/customer/en/portal/topics/986297-chat-extensions/articles' class="btn btn-pill"><span class="desk-view-text">View All </span>
+          3
+        </a>
+      </div>
+      
+    
+    
+    
+    
+      
+      <div class="desk-topic desk-topic-552126 col-md-4 col-sm-4">
+        <h3>
+          <a href='/customer/en/portal/topics/552126-viber-wallets/articles'>Viber wallets</a></h3>
+        <ul>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2343943-send-money-powered-by-western-union'>Send money powered by Western Union</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2652389-viber-wallet-faq'>Viber Wallet FAQ</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2652530-how-to-set-up-viber-wallet'>How to set up Viber Wallet</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2652531-how-to-use-viber-wallet'>How to use Viber Wallet</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2853940-connect-your-email-to-viber'>Connect your email to Viber</a>
+          </li>
+          
+        </ul>
+        <a href='/customer/en/portal/topics/552126-viber-wallets/articles' class="btn btn-pill"><span class="desk-view-text">View All </span>
+          5
+        </a>
+      </div>
+      
+    </div><div class="row topic">
+    
+    
+    
+    
+      
+      <div class="desk-topic desk-topic-986291 col-md-4 col-sm-4">
+        <h3>
+          <a href='/customer/en/portal/topics/986291-calls-and-messages/articles'>Calls and messages</a></h3>
+        <ul>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1340984-send-a-free-message-with-viber'>Send a free message with Viber</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2858064-send-media-messages-for-free-with-viber'>Send media messages for free with Viber</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1340905-make-calls-on-viber'>Make calls on Viber</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2560364-make-a-video-call-with-viber'>Make a video call with Viber</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2190075-share-your-screen-on-viber-for-desktop'>Share your screen on Viber for Desktop</a>
+          </li>
+          
+        </ul>
+        <a href='/customer/en/portal/topics/986291-calls-and-messages/articles' class="btn btn-pill"><span class="desk-view-text">View All </span>
+          13
+        </a>
+      </div>
+      
+    
+    
+    
+    
+      
+      <div class="desk-topic desk-topic-986295 col-md-4 col-sm-4">
+        <h3>
+          <a href='/customer/en/portal/topics/986295-groups/articles'>Groups</a></h3>
+        <ul>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1362368-group-chats'>Group chats</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2821562-group-invitations'>Group invitations</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2147187-likes-and-seen-status-in-group-conversations'>Likes and Seen Status in Group Conversations</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2733412-follow-public-accounts'>Follow Public Accounts</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2932633-be-a-part-of-a-viber-community'>Be a part of a Viber Community</a>
+          </li>
+          
+        </ul>
+        <a href='/customer/en/portal/topics/986295-groups/articles' class="btn btn-pill"><span class="desk-view-text">View All </span>
+          6
+        </a>
+      </div>
+      
+    
+    
+    
+    
+      
+      <div class="desk-topic desk-topic-1000778 col-md-4 col-sm-4">
+        <h3>
+          <a href='/customer/en/portal/topics/1000778-public-accounts/articles'>Public Accounts</a></h3>
+        <ul>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2733483-customize-your-public-account'>Customize your Public Account</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2733448-connect-a-private-messaging-channel-to-your-account'>Connect a private messaging channel to your account</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2857855-public-account-publishing-checklist'>Public Account publishing checklist</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2872423-deep-links'>Deep links</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2857846-manage-your-account-with-viber-admin-panel'>Manage your account with Viber admin panel</a>
+          </li>
+          
+        </ul>
+        <a href='/customer/en/portal/topics/1000778-public-accounts/articles' class="btn btn-pill"><span class="desk-view-text">View All </span>
+          10
+        </a>
+      </div>
+      
+    </div><div class="row topic">
+    
+    
+    
+    
+    </div>
+    <!-- END ARTICLES -->
+
+    <!-- END test -->
+ 
+<center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="4550149298"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></center>                   
+  </div><!--Container index-->
+</div><!--Content-->
+<!--end:page_index-->
+
+<!--end:portal_body-->
+                    
+                    
+                    </div> <!--end desktop-no-footer-->
+                    <!-- footer -->
+                    <footer id="footer-top">
+                      <div class="container">
+                        <div class="row">  
+                          <div id="social_media" class="row">
+                            <span>FOLLOW US:</span>
+                            
+                            <a href="//www.facebook.com/viber" target="_blank"><i class="fa fa-facebook"></i></a>
+                            
+                            
+                            <a href="//twitter.com/viber" target="_blank"><i class="fa fa-twitter"></i></a>
+                            
+                            
+                            <a href="//www.instagram.com/viber/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            
+                            
+                            
+                            <a href="//plus.google.com/u/0/+viber" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            
+                             <script type="text/javascript">
+                var userSelectedLanguage = document.getElementById('langs_list').childNodes[1].childNodes[1].value;
+                console.log(userSelectedLanguage);
+                if(userSelectedLanguage == 'ru') {
+                $('#social_media').append("<a href='https://vk.com/viber' target='_blank'><i class='fa fa-vk'></i></a>");
+                } 
+                               else if(userSelectedLanguage == 'ru') {
+                
+                $('body').removeClass('lang-ja').addClass('lang-ru');
+                } 
+                else if(userSelectedLanguage == 'ar'){
+                   $('#content, #breadcrumbs').css("direction","rtl");
+                   $('.rateblock').css('text-align', 'left');
+                   $("#rate_article").find('a:first').html("Liquid error: undefined method `gsub' for nil:NilClass");
+                   $("#rate_article").find('a:last').html("Liquid error: undefined method `gsub' for nil:NilClass");            
+                }
+              </script> 
+                          </div> <!-- social --> 
+                        </div><!-- row -->
+                      </div><!-- container -->  
+                    </footer>
+ <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- viber7 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2752741932348751"
+     data-ad-slot="1073791113"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>                   
+                    <footer id="footer">
+                      <div class="container text-center">
+                        <div class="row">
+                          <div class="col-md-12 viber-lonks">
+                            <a href="//www.viber.com/en/about" target="_blank">About</a>
+                            <a href="//www.viber.com/en/terms" target="_blank">Terms &amp; Policies</a>
+                            <a href="/customer/portal/emails/new">Contact Us</a>
+                             <a href="//account.viber.com" target="_blank">Viber Out</a> 
+                            <a href="http://www.viber.com/en/" target="_blank">Viber.com</a>
+                            <div class="copyright">© 2018 Viber Media S.à r.l.</div>
+                          </div><!-- col-md-12 -->
+                        </div><!-- row -->
+                      </div><!-- container -->
+                    </footer><!-- #desk-footer -->
+                    
+                    </div> <!-- END CONTENT -->
+                    </div> <!-- Wrapper -->
+                    
+                    
+                    <!-- Facebook Like Button -->
+                    <div id="fb-root"></div>
+                    <!-- External Variables for Portal Header -->
+                    <div id="desk-external-variables-header" class="desk-external-variables" style="display:none;">
+                      <div id="system_language">en</div>
+                      <div id="results_mobile">results found </div>
+                      <div id="read_only"></div>
+                      <div id="system-snippets-do_these_help">Do These help?</div>
+                      <div id="site-default_mailbox">support@viber.com</div>
+                      <div id="desk_javascript_host">https://cdn.desk.com/</div>
+                      <div id="twitter_enabled">false</div>
+                      <div id="twitter_username">desk</div>
+                      <div id="system-snippets-loading">Loading</div>
+                      <div id="system-snippets-seconds_ago">seconds ago</div>
+                      <div id="system-snippets-a_minute_ago">a minute ago</div>
+                      <div id="system-snippets-minutes_ago">minutes ago</div>
+                      <div id="system-snippets-an_hour_ago">an hour ago</div>
+                      <div id="system-snippets-hours_ago">hours ago</div>
+                      <div id="system-snippets-a_day_ago">a day ago</div>
+                      <div id="system-snippets-days_ago">days ago</div>
+                      <div id="system-snippets-about">about</div>
+                      <div id="enable_gs">false</div>
+                      <div id="system-snippets-invalid_characters_found">Invalid characters found</div>
+                      <div id="site-search_autocomplete_articles_url">/customer/portal/articles/autocomplete</div>
+                      <div id="search-term"></div>
+                      
+                    </div>
+                    <div id="ThemeOptions" class="hidden" style="display:none;">
+                      <div id="header_text">#ffffff</div>
+                      <div id="current-page">page_index</div>
+                      <div id="brand_id">3838</div>
+                      <div id="site-brands">
+                        
+                        <div id="3838">Viber </div>
+                        
+                        <div id="11275">Partners</div>
+                        
+                        <div id="14829">Service Messages</div>
+                        
+                        <div id="15145">Developers Home</div>
+                        
+                      </div>
+                      
+                      <div id="SkipPreCreate">true</div>
+                      
+                      
+                      
+                      
+                    </div>
+                    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+                    <!-- Vendee js -->
+                    <!--<script src="//s3.amazonaws.com/t4d-pub-res/viber/t4d-desk.portal.js" type="text/javascript"></script>  -->
+                    <script src="//desk-customers.s3.amazonaws.com/t4d/viber/t4d-desk.portal.js" type="text/javascript"></script>        
+                    <script>function goBack() {window.history.back();}
+                      $(document).ready(function () {
+                      $("#MobileToggle img").click(function () {
+                      $(this).toggleClass('active');
+                      if($(this).hasClass('active')){          
+                      $(this).attr("src","https://support.viber.com/customer/portal/attachments/689853");
+                      } else {    
+                      $(this).attr("src","https://support.viber.com/customer/portal/attachments/689852");
+                      }   
+                      });
+                      });                   
+                    </script>
+
+                   <!-- <script type="text/javascript">
+                      var mySecondDiv=$('<i class="fa fa-angle-down"></i>');
+                      (mySecondDiv).insertAfter($('#a-content-select'));
+                    </script> -->
+
+	</body>
+</html>
