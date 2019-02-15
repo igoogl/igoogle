@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+ <ModulePrefs height="336" 
+title="Super Mario Run" 
+description="
+You control Mario by tapping as he constantly runs forward. You time your taps to pull off stylish jumps, midair spins, and wall jumps to gather coins and reach the goal!
+" 
+author="waled" 
+author_email="waled.m2006@gmail.com" 
+screenshot="https://myegy.cc/files/img/content/0/169/1493054959.500_1000.jpg" 
+thumbnail="https://myegy.cc/files/img/content/0/169/1493054959.500_1000.jpg" 
+author_location="USA" 
+directory_title="Super Mario Run"
+category="funandgames"
+author_link="https://myegy.cc/games/android/169/Super%20Mario%20Run">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <Content type="html" view="default,canvas">
+<![CDATA[
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2752741932348751",
+          enable_page_level_ads: true
+     });
+</script>
+<title>Super Mario Run</title>
+<meta content='
+You control Mario by tapping as he constantly runs forward. You time your taps to pull off stylish jumps, midair spins, and wall jumps to gather coins and reach the goal!
+' name='description'/>
+<meta content='Super Mario Run ' name='keywords'/>
+ </head>
+<center><iframe width="300" height="444" src="https://www.youtube.com/embed/pS3FRgZAsH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><p align="center">You control Mario by tapping as he constantly runs forward. You time 
+your taps to pull off stylish jumps, midair spins, and wall jumps to 
+gather coins and reach the goal!</p><p align="center">■World Tour</p><p align="center">Run and jump with style to rescue Princess Peach from Bowser’s clutches! </p><p align="center">Travel through plains, caverns, ghost houses, airships, castles, and more...</p><p align="center">To
+ reach Bowser’s Castle, clear the 24 courses located across 6 worlds. 
+There are many ways to enjoy the courses, such as collecting the 3 
+different types of colored coins or by competing for the highest score 
+against your friends. You can try courses 1-1 to 1-4 for free.</p><p align="center">■Toad Rally</p><p align="center">Show off Mario’s stylish moves, compete against your friends, and challenge people from all over the world</center>
+
+
+]]>
+  </Content>
+</Module>
