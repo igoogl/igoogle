@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+ <ModulePrefs height="336" 
+title="Candy Crush Saga" 
+description="
+Start playing Candy Crush Saga today – loved by millions of players around the world.
+" 
+author="waled" 
+author_email="waled.m2006@gmail.com" 
+screenshot="https://myegy.cc/files/img/content/8/212/1548719204.500_1000.jpg" 
+thumbnail="https://myegy.cc/files/img/content/8/212/1548719204.500_1000.jpg" 
+author_location="USA" 
+directory_title="Candy Crush Saga"
+category="funandgames"
+author_link="https://myegy.cc/games/android/8212/Candy%20Crush%20Saga">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <Content type="html" view="default,canvas">
+<![CDATA[
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2752741932348751",
+          enable_page_level_ads: true
+     });
+</script>
+<title>Candy Crush Saga</title>
+<meta content='
+Switch and match Candies in this divine puzzle adventure to progress to the next level in hope of achieving that sweet feeling! Quick thinking and smart moves are rewarded with delicious rainbow-colored cascades and tasty candy combos!
+' name='description'/>
+<meta content='Candy Crush Saga ' name='keywords'/>
+ </head>
+<center><img src="https://i.ibb.co/7216YjT/download.jpg" alt=""><img src="https://i.ibb.co/3F57Xmp/download-2.jpg" alt=""><img src="https://i.ibb.co/w0638v7/download-1.jpg" alt=""><br><p>Start playing Candy Crush Saga today – loved by millions of players around the world.</p><br style="-webkit-tap-highlight-color: transparent;"><p>With over a trillion levels played, this sweet match 3 puzzle game is one of the most popular mobile games of all time!</p><br style="-webkit-tap-highlight-color: transparent;"><p>Switch and match Candies in this divine puzzle adventure to progress to the next level in hope of achieving that sweet feeling! Quick thinking and smart moves are rewarded with delicious rainbow-colored cascades and tasty candy combos!</p><br style="-webkit-tap-highlight-color: transparent;"><p>Plan your moves by matching 3 or more candies in a row, using boosters wisely in order to overcome those extra sticky levels! Smash the chocolate and collect ingredients across thousands of levels guaranteed to have you craving more!</p><br style="-webkit-tap-highlight-color: transparent;"><p>Take on this deliciously sweet match 3 Saga alone or play with friends! Candy Crush Saga is completely free to play but some optional in-game items will require payment.</p><br style="-webkit-tap-highlight-color: transparent;"><p>By downloading this game you are agreeing to our terms of service; http://about.king.com/consumer-terms/terms</p><br style="-webkit-tap-highlight-color: transparent;"><p>Candy Crush Saga features:</p><p>● Tasty ways to play: Target Score, Clear the Jelly, Collect the Ingredients and Order Mode to name a few!</p><p>● Check back daily to receive free tasty rewards, take part in time limited challenges to earn boosters to help you level up!&nbsp;</p><p>● Collect sugar drops to progress along the Sugar Track for super sweet surprises!</p><p>● Spin the Daily Booster Wheel for a delicious prize&nbsp;</p><p>● Unwrap delicious environments and meet the sweetest characters</p><p>● Tasty Candies, wrapped and striped Special Candies, Color Bombs and various other magical boosters to help with those challenging sticky levels</p><p>● Thousands of the best levels and puzzles in the Candy Kingdom and with more added every 2 weeks your sugar fix is never far away!&nbsp;</p><p>● Leaderboards to watch your friends and competitors!</p></center>
+
+
+]]>
+  </Content>
+</Module>
